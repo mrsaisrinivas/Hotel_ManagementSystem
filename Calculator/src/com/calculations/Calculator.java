@@ -35,7 +35,7 @@ public class Calculator {
 					System.out.println("\n Enter your Choice");
 					choice = input.nextInt();
 
-					if(choice <= 0 || choice >= 5)
+					if(choice <= 0 && choice >= 6)
 					
 					{
 						System.out.println("\nThanks for using");
