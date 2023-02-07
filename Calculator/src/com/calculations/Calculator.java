@@ -9,7 +9,8 @@ import java.util.Scanner;
 
 public class Calculator {
 
-	public static void main(String[] args){
+	public static void main(String[] args)
+	{
 
 		{
 
@@ -34,7 +35,8 @@ public class Calculator {
 					System.out.println("\n Enter your Choice");
 					choice = input.nextInt();
 
-					if(choice <= 0 || choice > 5)
+					if(choice <= 0 || choice >= 5)
+					
 					{
 						System.out.println("\nThanks for using");
 						System.exit(0);
